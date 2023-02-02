@@ -1,0 +1,15 @@
+name: testing-shell-commands
+
+on : [push]
+
+jobs:
+  testing-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Github-Actions"
+      - name: multi-line-command
+        run: |
+          node -v
+          npm -v
+          
