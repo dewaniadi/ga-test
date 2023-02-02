@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: simple js action
         id: greet
-        uses: action/hello-world-javascript-action@v1
+        uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: Dewani
       - name: greet-time
